@@ -1,0 +1,5 @@
+{
+  "status": "online",
+  "gamesUrl": "YOUR_GAMES_JSON_RAW_URL_HERE",
+  "appsUrl": "YOUR_APPS_JSON_RAW_URL_HERE"
+}
