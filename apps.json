@@ -1,0 +1,54 @@
+[
+  {
+    "name": "WhatsApp Messenger",
+    "description": "تطبيق المراسلة الأكثر شعبية. تواصل مع أصدقائك وعائلتك بأمان من خلال الرسائل النصية، المكالمات الصوتية، ومكالمات الفيديو.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=WhatsApp+Messenger+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=WhatsApp+Messenger+app+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=WhatsApp+Messenger+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=WhatsApp+Messenger+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=WhatsApp+Messenger+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=WhatsApp+Messenger+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  },
+  {
+    "name": "ChatGPT",
+    "description": "المساعد الذكي الأقوى عالمياً من OpenAI. اطرح أي سؤال واحصل على إجابات فورية، مساعدة في البرمجة، كتابة النصوص، وحل المشكلات.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=ChatGPT+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=ChatGPT+app+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=ChatGPT+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=ChatGPT+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=ChatGPT+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=ChatGPT+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  },
+  {
+    "name": "Instagram",
+    "description": "شارك لحظاتك الممتعة عبر الصور والفيديوهات القصيرة (Reels)، واكتشف محتوى جديداً من صناع المحتوى والأصدقاء حول العالم.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=Instagram+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=Instagram+app+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=Instagram+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Instagram+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Instagram+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Instagram+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  },
+  {
+    "name": "TikTok",
+    "description": "الوجهة الأولى لمقاطع الفيديو القصيرة. اكتشف التريندات العالمية، أنشئ محتواك الخاص بسهولة، وشارك إبداعك مع الملايين.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=TikTok+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=TikTok+app+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=TikTok+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=TikTok+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=TikTok+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=TikTok+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  }
+]

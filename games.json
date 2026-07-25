@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Minecraft",
+    "description": "استكشف عوالم لا نهائية وقم ببناء كل شيء بدءًا من أبسط المنازل وحتى أروع القلاع. العب في وضع الإبداع بموارد غير محدودة أو تعمق في العالم في وضع البقاء على قيد الحياة.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=Minecraft+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=Minecraft+gameplay+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=Minecraft+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Minecraft+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Minecraft+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Minecraft+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/khalildz2005/my-app-assets/releases/download/1.0/Minecraft-Pocket-Edition-1.26.50.20-www.androidp1.com.apk"
+  },
+  {
+    "name": "PUBG Mobile",
+    "description": "لعبة الباتل رويال الأشهر عالمياً. اهبط بالمظلة، اجمع الأسلحة والعتاد، وكن آخر من يبقى على قيد الحياة في معارك ملحمية تضم 100 لاعب.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=PUBG+Mobile+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=PUBG+Mobile+gameplay+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=PUBG+Mobile+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=PUBG+Mobile+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=PUBG+Mobile+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=PUBG+Mobile+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  },
+  {
+    "name": "GTA San Andreas",
+    "description": "عش التجربة الكلاسيكية المذهلة في عالم العصابات المفتوح، مع مهام مثيرة، قيادة سيارات، وقصة درامية لا تُنسى في شوارع سان أندرياس.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=GTA+San+Andreas+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=GTA+San+Andreas+gameplay+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=GTA+San+Andreas+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=GTA+San+Andreas+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=GTA+San+Andreas+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=GTA+San+Andreas+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  },
+  {
+    "name": "Roblox",
+    "description": "المنصة العالمية التي تتيح لك اللعب وإنشاء ألعابك الخاصة. انضم إلى ملايين اللاعبين واكتشف عوالم وتجارب ثلاثية الأبعاد لا حصر لها.",
+    "iconUrl": "https://tse1.mm.bing.net/th?q=Roblox+app+icon&w=200&h=200&c=7",
+    "coverUrl": "https://tse1.mm.bing.net/th?q=Roblox+gameplay+wallpaper+hd&w=800&h=400&c=7",
+    "screenshots": [
+      "https://tse1.mm.bing.net/th?q=Roblox+mobile+app+screenshot+1&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Roblox+mobile+app+screenshot+2&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Roblox+mobile+app+screenshot+3&w=300&h=500&c=7",
+      "https://tse1.mm.bing.net/th?q=Roblox+mobile+app+screenshot+4&w=300&h=500&c=7"
+    ],
+    "customUrl": "https://github.com/android/nowinandroid/releases/download/RELEASES_DEMO/demo.apk"
+  }
+]
