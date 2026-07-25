@@ -1,5 +1,6 @@
 {
   "status": "online",
-  "gamesUrl": "YOUR_GAMES_JSON_RAW_URL_HERE",
-  "appsUrl": "YOUR_APPS_JSON_RAW_URL_HERE"
+  "gamesUrl": "https://raw.githubusercontent.com/khalildz2005/my-app-assets/main/games.json",
+  "appsUrl": "https://raw.githubusercontent.com/khalildz2005/my-app-assets/main/apps.json"
 }
+
