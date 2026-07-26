@@ -16,8 +16,13 @@
     "name": "Black Border 2",
     "description": "لعبة محاكاة فحص الحدود والأمن الشهيرة. قم بدور ضابط الجمارك، افحص الأوراق والجوازات، واتخذ القرارات المباشرة لحماية الحدود من المهربين والمتسللين.",
     "iconUrl": "https://raw.githubusercontent.com/khalildz2005/my-app-assets/main/images/blackborder2icon.png",
-    "coverUrl": "",
-    "screenshots": [],
+    "coverUrl": "https://i.ytimg.com/vi/7yQYDz8pbRI/maxresdefault.jpg",
+    "screenshots": [
+      "https://minireview.io/common/uploads/review/black-border-2-minireview-1419340.jpg",
+      "https://cogconnected.com/wp-content/uploads/2024/09/Black-Border-2-Featured.jpg",
+      "https://minireview.io/common/uploads/review/screenshot-2024-10-16-00-21-17-345-com-b-0736060.jpg",
+      "https://www.droidgamers.com/wp-content/uploads/2024/09/Black-Border-2-pre-registration-1024x576.jpg"
+    ],
     "customUrl": "https://files.catbox.moe/ig5d78.apk"
   }
 ]
