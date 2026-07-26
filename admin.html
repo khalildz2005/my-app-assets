@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم AMR Store</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #1e1e2e; color: #cdd6f4; padding: 20px; text-align: center; }
+        .container { max-width: 500px; margin: auto; background: #313244; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        input, button, textarea { width: 90%; margin: 10px 0; padding: 10px; border-radius: 5px; border: 1px solid #45475a; background: #181825; color: #cdd6f4; font-size: 16px; outline: none; }
+        button { background: #89b4fa; color: #11111b; font-weight: bold; cursor: pointer; border: none; font-size: 18px;}
+        button:hover { background: #74c7ec; }
+        textarea { height: 250px; direction: ltr; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>لوحة تحكم AMR Store 🚀</h2>
+        <p>أداة توليد كود الألعاب التلقائي</p>
+        
+        <input type="text" id="gameName" placeholder="اكتب اسم اللعبة (مثال: PUBG Mobile)" />
+        <input type="text" id="customUrl" placeholder="رابط التحميل المباشر (من Pixeldrain مثلاً)" />
+        
+        <button onclick="generateJSON()">بحث وتوليد الكود ⚡</button>
+        
+        <textarea id="output" placeholder="سيظهر كود JSON هنا... جاهز للنسخ!"></textarea>
+        <button onclick="copyCode()">نسخ الكود 📋</button>
+    </div>
+
+    <script>
+        async function generateJSON() {
+            const gameName = document.getElementById('gameName').value;
+            const customUrl = document.getElementById('customUrl').value;
+            const output = document.getElementById('output');
+
+            if (!gameName || !customUrl) {
+                alert("الرجاء كتابة اسم اللعبة ورابط التحميل المباشر أولاً!");
+                return;
+            }
+
+            output.value = "جاري البحث وجلب الصور والبيانات من السيرفر... ⏳";
+
+            try {
+                // نستخدم API مجاني يجلب البيانات والصور العالية الدقة
+                const response = await fetch(`https://itunes.apple.com/search?term=${encodeURIComponent(gameName)}&entity=software&limit=1&country=sa`);
+                const data = await response.json();
+
+                if (data.results && data.results.length > 0) {
+                    const game = data.results[0];
+                    const iconUrl = game.artworkUrl512 || game.artworkUrl100;
+                    const screenshots = game.screenshotUrls.slice(0, 4); // نأخذ 4 صور من داخل اللعبة
+                    const coverUrl = screenshots.length > 0 ? screenshots[0] : iconUrl; 
+                    let desc = game.description || "وصف اللعبة غير متوفر حالياً.";
+                    
+                    // تقصير الوصف إذا كان طويلاً جداً
+                    if(desc.length > 250) desc = desc.substring(0, 250) + "...";
+
+                    const jsonResult = {
+                        name: game.trackName,
+                        description: desc,
+                        iconUrl: iconUrl,
+                        coverUrl: coverUrl,
+                        screenshots: screenshots,
+                        customUrl: customUrl
+                    };
+
+                    // إضافة الفاصلة في البداية لتسهيل اللصق أسفل اللعبة السابقة
+                    output.value = ",\n" + JSON.stringify(jsonResult, null, 2);
+                } else {
+                    output.value = "";
+                    alert("لم يتم العثور على اللعبة! تأكد من كتابة الاسم الإنجليزي الصحيح للعبة.");
+                }
+            } catch (error) {
+                output.value = "";
+                alert("حدث خطأ في الاتصال، حاول مرة أخرى.");
+            }
+        }
+
+        function copyCode() {
+            const output = document.getElementById('output');
+            if(output.value === "") return;
+            output.select();
+            document.execCommand('copy');
+            alert("تم نسخ الكود بنجاح! 🚀 اذهب والصقه في ملف games.json");
+        }
+    </script>
+</body>
+</html>
