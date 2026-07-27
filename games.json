@@ -1,7 +1,7 @@
 [
   {
     "name": "Minecraft",
-    "description": "استكشف عوالم لا نهائية وقم ببناء كل شيء بدءًا من أبسط المنازل وحتى أروع القلاع. العب في وضع الإبداع بموارد غير محدودة أو تعمق في العالم في وضع البقاء على قيد الحياة.",
+    "description": "Dive into an open world of building, crafting and survival. Gather resources, survive the night, and build whatever you can imagine one block at a time. Explore and craft your way through a completely open world where you can play with friends, build... .",
     "iconUrl": "https://raw.githubusercontent.com/khalildz2005/my-app-assets/refs/heads/main/images/minecrafticon.png",
     "coverUrl": "https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1717535103412-EGQBBRCZT62O2VX7OYAK/1280x720-minecraft-an8pm9v8gg194ngb.jpg",
     "screenshots": [
@@ -61,5 +61,18 @@
       "https://apktodo.io/uploads/2026/2/tiny-terraces-download.jpg"
     ],
     "customUrl": "https://github.com/khalildz2005/my-app-assets/releases/download/5.0/com.VuVuu.TinyTerraces_0.90.832.9051-APK_Award.apk"
-  }
+  },
+{
+  "name": "LIMBO",
+  "description": "Limbo, the Apple Design Award winner, is now on Arcade.\n\nPlaydead’s award-winning indie adventure is critically acclaimed for its captivating puzzle design and immersive sound and visuals. Its dark, misty spaces and haunting narrative will stay with ...",
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/6f/65/946f6540-16e8-aed6-95e9-519432856056/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/f0/66/67f06652-e214-4a79-84f8-1fe8c2efa717/6160b131-7361-4399-9d2a-8b57016f9432_Limbo_Screenshot_01.jpg/406x228bb.jpg",
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/f0/66/67f06652-e214-4a79-84f8-1fe8c2efa717/6160b131-7361-4399-9d2a-8b57016f9432_Limbo_Screenshot_01.jpg/406x228bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/18/03/b11803e5-7370-a956-e6cc-01eba7cea6a5/73dba8aa-779d-42da-a7cc-8b9e3854674e_Limbo_Screenshot_02.jpg/406x228bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/a0/0b/71a00b29-d427-df30-b22a-409c023216a2/d491af25-d4a1-4720-b4d4-c61ae7cf89f3_Limbo_Screenshot_03.jpg/406x228bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ea/3e/75ea3ef8-371f-711c-a995-32efbbf80bd6/ec825225-76f2-459c-b521-2eb4db9a4bb7_Limbo_Screenshot_04.jpg/406x228bb.jpg"
+  ],
+  "customUrl": "https://github.com/khalildz2005/my-app-assets/releases/download/6.0/LIMBO.PAID.EDITION.FOR.FREE.apk"
+}
 ]
